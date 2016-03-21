@@ -32,7 +32,7 @@ namespace spec
 
 			Assert::AreEqual(vowels, 0, L"Vowels should be 0 for ", LINE_INFO());
 		}
-		TEST_METHOD(ComplexString)
+ 		TEST_METHOD(ComplexString)
 		{
 			char str[] = "a .?2343 BCDE mu";
 			int consonants ;

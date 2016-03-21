@@ -10,6 +10,9 @@ Objectives of C-Strings-2 Lesson:
 ->New ways of Handling Strings
 
 */
+#include<stdio.h>
+
+char * get_sub_string(char *,int,int);
 
 
 int main(){
@@ -22,6 +25,10 @@ int main(){
 	//Test getSubstring
 
 	//Test getLastWord
-
+	char str[] = "abcdefgh.,812639";
+	
+	char *p = get_sub_string(str, 5,1);
+	printf("\n%s", p);
+	
 	return 0;
 }
